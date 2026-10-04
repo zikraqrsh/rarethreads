@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rare Threads| Teen Fashion</title>
+    <style>
+        body{
+        font-family: sans-serif;
+       background: bisque;
+        color:(black);
+       
+    }
+    .nav{
+        height: 80px;
+        background-color: black;
+        color: bisque;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position:sticky;
+        z-index: 100px;/* it is z axis , only works on sticky fixed absolute and relative*/
+
+    }
+
+    .logo{
+        font-size: 30px;
+        font-weight: 800;
+        letter-spacing: -1px;
+        background-color: burlywood;
+    }
+     nav ul{
+        display: flex;
+        gap: 30px;
+     }
+     nav ul li{
+        color: black;
+        font-size: 30px;
+        font-weight: 600;
+        
+     }
+     .icons{
+        display: flex;
+        gap: 30px;
+        font-size: 30px;
+        display: flex;
+      
+       
+        
+
+     }
+     .hero{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: bisque;
+        overflow: hidden;
+     }
+     .hero-text{
+        max-width: 550px;
+     }
+     .small-title{
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+     }
+     .hero h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 70px;
+        line-height: .88;
+        font-weight: 950;
+        letter-spacing: 2px;
+    
+        justify-content: center;
+
+     }
+     .hero p{
+        font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     .shop-btn{
+        display: inline-block;
+        background: black;
+        color: azure;
+        font-weight: bold;
+        transition: 3s;
+        padding: 16px 34px;
+       
+     }
+     
+      .hero-image{
+        width: fit-content;
+        height: fit-content;
+       background: linear-gradient(burlywood);
+       display: flex;
+    
+    }
+     .section{
+        padding: 80px 8%;
+     }
+     .section-heading{
+        display: flex;
+        margin-bottom: 10px;
+    
+     }
+     .products{
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+        justify-content: center;
+        background-color: rgb(189, 164, 133);
+        height: 650px;
+        width: 100%;
+        gap: 30px;
+        justify-content: space-between;
+      
+     }
+    .product{
+      position: relative;
+      transition: .3s;
+      padding: 20px;
+      
+    }
+    .product:hover{
+      transform: translateY(-7px);
+    }
+    .product-image {
+      height: 430px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 70px;
+    }
+    .product-info{
+      padding: 20px;
+    }
+    .product-info h3{
+     margin-bottom: 8px;
+      font-size: 17px;
+    }
+    .product-info p{
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 10px;
+    
+    }
+    .tag{
+      position: absolute;
+      top: 15px;
+      left: 20px;
+      background: black;
+      color: white;
+      padding: 9px 11px;
+      font-size: 11px;
+      font-weight: bold;
+    }
+    .categories{
+      display: grid;
+      grid-template-columns: repeat(3 1fr);
+      gap: 20px;
+    }
+    .category{
+      height: 300px;
+     padding: 30px;
+     display: flex;
+     align-items: end;
+     color: white;
+     font-size: 34px;
+     font-weight: 900;
+     background: #666;
+     transition: .3s;
+    }
+     .category:nth-child(1) {
+      background: #4d4a47
+    }
+
+    .category:nth-child(2) {
+      background: #77736d;
+    }
+
+    .category:nth-child(3) {
+      background: #252525;
+    }
+    .newsletter{
+      background: #77736d;
+      color: white;
+      text-align: center;
+      padding: 80px 8%;
+    }
+    .newsletter h2{
+      font-size: 50px;
+      font-weight: 900;
+      margin-bottom: 15px;
+    }
+    .newsletter p{
+      color: antiquewhite;
+      margin-bottom: 30px;
+    }
+    
+    footer {
+      background: #111;
+      border-top: 1px solid #333;
+      color: hsl(0, 100%, 99%);
+      padding: 25px 8%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+    }
+   
+      </style> 
+        
+    
+</head>
+<body>
+    <nav>
+    <div class="logo">Rare Threads.</div>
+   <ul>
+    <li> <a href="#categories">NEW ARRIVALS</li></a>
+    <li> <a href="#categories">SHOP</li></a>
+    <li><a href="#categories">CATEGORIES</li></a>
+    <li> <a href="about us.html">ABOUT US</li></a>
+   </ul>
+   <div class="icons">
+    <span>🔍︎</span>
+     <span>♡</span>
+      <span>🛒</span>
+   </div>
+   </nav>
+   
+   <section class="hero">
+    <div class="hero-text">
+    <div class="small-title">
+        Teen Fashion 2026
+    </div>
+    <h1>
+        WEAR <br>
+        YOUR <br>
+        VIBE <br>
+    </h1>
+    <p> Fashion made for your era. Discover oversized fits,
+        everyday essentials and statement pieces made to stand out.</p>
+
+        <a href="#categories" class="shop-btn">SHOP NOW →</a>
+
+    </div>
+    <div class="hero-image"> <img src="logo.jpeg" alt="Rare Threads" width="500" height="500">
+    </div>
+
+
+   </section>
+   <section class="section">
+    <div class="section-heading">
+        <h2>TRENDING NOW!</h2>
+
+    </div>
+    <div class="products">
+        <div class="product">
+            <span class="tag">NEW</span>
+            <div class="product-image">
+                <img src="pant.jpeg" alt="Black Pant" width="350px"
+                height="450px">
+            </div>
+            <div class="product-info">
+               <h3>Formal Black Pant</h3>
+               <p>Black|Unisex</p>
+               <span class="price">Rs 799</span>
+               
+
+            </div>
+            
+        </div>
+        <div class="product">
+         
+   <div class="product-image"> <img src="t-shirt.jpeg" alt="Tshirt"width="350px" height="450px"></div>
+   <div class="product-info">
+      <h3>Oversized Tshirt</h3>
+      <p>Black | Printed Tee</p>
+      <span class="price">Rs 499</span>
+   </div>
+
+    </div>
+    
+    
+    <div class="products">
+
+    <div class="product">
+               <span class="tag">HOT </span>
+               <div class="product-image"> <img src="jacket.jpeg" alt="Black Leather Jacket" width="350px"
+                height="450px"></div>
+               <div class="product-info">
+                 <h3>Black Leather Jacket
+                 </h3>
+                 <p>Black | Burgundy | Grey | Oversized</p>
+                 <span class="price">Rs 1,499</span>
+               </div>
+</div>
+<div class="product">
+   <div class="product-image"> <img src="jeans.jpeg" alt="Jeans"  width="350" height="450"></div>
+   <div class="product-info">
+      <h3>Baggy Denim</h3>
+      <p>Acid Wash Blue </p>
+      <span class="price">Rs 1,299</span>
+   </div>
+   
+</div>
+<div class="product">
+   <span class="tag">TRENDING </span>
+   <div class="product-image"> <img src="cap.png" alt="Everyday cap"width="350px" height="450px"></div>
+   <div class="product-info">
+      <h3>Everyday Cap</h3>
+      <p>Black | Adjustable</p>
+      <span class="price">Rs 499</span>
+   </div>
+   
+</div>
+
+
+   </section>
+   <section class="section" id="categories">
+
+ <div class="section-heading">
+   <h2>SHOP YOUR WAY!</h2>
+ </div>
+ <div class="categories">
+   <div class="category"> 
+      TOPS
+   </div>
+   <div class="category">
+      BOTTOMS
+   </div>
+   <div class="category">
+      ACCESSORIES
+   </div>
+
+ </div>
+
+
+
+   </section>
+<section class="newsletter"> 
+<h2>STAY IN THE LOOP</h2>
+<p>Get first access to new drops, exclusive offers and Rare Threads updates.</p>
+<button>JOIN US</button>
+
+
+</section>
+<footer>
+   <span>@2026 RARE THREADS.</span> <br>
+   <span>
+      Instagram &nbsp; TikTok    &nbsp; Privacy &nbsp; Contact
+    </span>
+</footer>
+
+    
+</body>
+</html>
